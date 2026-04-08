@@ -1,0 +1,73 @@
+name: Scrape Maricopa Motivated Seller Leads
+
+on:
+  schedule:
+    - cron: "0 7 * * *"   # 7 AM UTC daily (midnight AZ time)
+  workflow_dispatch:        # allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 60
+
+    steps:
+      # ── Checkout ────────────────────────────────────────────────────────────
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── Python setup ────────────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml dbfread playwright
+
+      # ── Playwright browser ──────────────────────────────────────────────────
+      - name: Install Playwright Chromium
+        run: python -m playwright install --with-deps chromium
+
+      # ── Run scraper ─────────────────────────────────────────────────────────
+      - name: Run scraper
+        env:
+          LOOKBACK_DAYS: "7"
+        run: python scraper/fetch.py
+
+      # ── Commit output files ──────────────────────────────────────────────────
+      - name: Commit records.json files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/records.json data/records.json data/ghl_export.csv || true
+          git diff --cached --quiet || git commit -m "chore: update leads $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      # ── Deploy dashboard to GitHub Pages ────────────────────────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
