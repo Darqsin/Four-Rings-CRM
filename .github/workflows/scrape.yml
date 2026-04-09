@@ -1,96 +1,76 @@
-name: Scrape Maricopa Motivated Seller Leads
+name: Maricopa Motivated Seller Scraper
 
 on:
   schedule:
-    - cron: "0 7 * * *"    # 7 AM UTC = midnight AZ (MST) / 12 AM AZ (MDT)
-  workflow_dispatch:         # manual trigger from GitHub Actions UI
+    # Runs daily at 8:00 AM Arizona time (MST = UTC-7, so 15:00 UTC)
+    - cron: '0 15 * * *'
+  workflow_dispatch:   # also allows manual trigger from GitHub UI
 
 permissions:
-  contents: write
-  pages: write
+  contents: write      # needed to commit data files back to repo
+  pages: write         # needed to deploy dashboard to GitHub Pages
   id-token: write
 
 jobs:
   scrape:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     timeout-minutes: 90
 
     steps:
-      # ── Checkout ─────────────────────────────────────────────────────────
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # ── System deps for OCR (Tesseract + Poppler) ─────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
       - name: Install system dependencies
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends \
+          sudo apt-get install -y \
             tesseract-ocr \
             tesseract-ocr-eng \
+            libtesseract-dev \
             poppler-utils \
-            libgl1-mesa-glx \
-            libglib2.0-0
-
-      # ── Python setup ──────────────────────────────────────────────────────
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-          cache: pip
-          cache-dependency-path: scraper/requirements.txt
+            libgl1
 
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
-          pip install \
-            requests beautifulsoup4 lxml \
-            playwright \
-            dbfread \
-            pdfplumber "pdfminer.six" \
-            PyMuPDF pytesseract Pillow \
-            openpyxl
+          pip install -r requirements.txt
 
-      # ── Playwright browser ────────────────────────────────────────────────
-      - name: Install Playwright Chromium
-        run: python -m playwright install --with-deps chromium
+      - name: Install Playwright browsers
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
 
-      # ── Run scraper ───────────────────────────────────────────────────────
       - name: Run scraper
+        run: |
+          python fetch.py
         env:
-          LOOKBACK_DAYS: "7"
-        run: python scraper/fetch.py
+          LOOKBACK_DAYS: 7
 
-      # ── Commit outputs ────────────────────────────────────────────────────
-      - name: Commit output files
+      - name: Commit data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add \
-            dashboard/records.json \
-            data/records.json \
-            data/ghl_export.csv \
-            data/leads.xlsx \
-            || true
-          git diff --cached --quiet || \
-            git commit -m "chore: update leads $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add data/ dashboard/
+          git diff --staged --quiet || git commit -m "Scraper run: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
+        continue-on-error: true   # don't fail the job if nothing changed
 
-      # ── Deploy dashboard to GitHub Pages ──────────────────────────────────
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload Excel as artifact
+        uses: actions/upload-artifact@v4
         with:
-          path: dashboard/
+          name: leads-${{ github.run_id }}
+          path: data/leads.xlsx
+          retention-days: 30
 
-  deploy:
-    needs: scrape
-    runs-on: ubuntu-22.04
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy dashboard to GitHub Pages
         uses: actions/deploy-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          artifact_name: dashboard
+        continue-on-error: true
