@@ -25,12 +25,16 @@ from typing import Optional
 import requests
 from bs4 import BeautifulSoup
 
-# ── Tesseract path (Windows) ──────────────────────────────────────────────────
+# ── Tesseract path — works on Windows and Linux (GitHub Actions) ─────────────
 try:
-    import pytesseract, os
-    _TESS = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-    if os.path.isfile(_TESS):
-        pytesseract.pytesseract.tesseract_cmd = _TESS
+    import pytesseract, os, sys
+    if sys.platform == "win32":
+        # Windows: hard-coded default install path
+        _TESS = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+        if os.path.isfile(_TESS):
+            pytesseract.pytesseract.tesseract_cmd = _TESS
+    # Linux (GitHub Actions): tesseract is on PATH after apt-get install tesseract-ocr
+    # pytesseract finds it automatically — no path needed
 except ImportError:
     pass
 
@@ -268,75 +272,86 @@ def _parse_results_page(soup: BeautifulSoup, code: str) -> list[dict]:
 class PDFParser:
     """Download and parse a NOTS PDF from legacy.recorder.maricopa.gov"""
 
-    # Patterns to extract from NOTS PDFs (confirmed from real OCR output 2026-04-08)
+    # Patterns covering ALL observed NOTS PDF templates from Maricopa County
+    # Tested against real PDFs from: Nestor Solutions, Vylla, Folks Hess, ZBS Law,
+    # America West Lender Services, Tiffany & Bosco, Prestige Default Services
     _PAT = {
-        # Structure confirmed from OCR:
-        # "Name and address of original trustor:\n(as shown on the Deed of Trust)\nBRANDON S. MAXWELL..."
-        # The [^\n]* after the label matches the rest of that line (empty or colon)
-        # Then \([^\n]+\)\n skips the parenthetical line
+        # ── TRUSTOR ───────────────────────────────────────────────────────────
         "trustor": [
-            re.compile(
-                r'Name\s+and\s+address\s+of\s+original\s+trustor[^\n]*\n'
-                r'\([^\n]+\)\n'                 # skip "(as shown on the Deed of Trust)"
-                r'([A-Z][^\n]{3,120})',
-                re.I | re.MULTILINE),
-            re.compile(
-                r'Name\s+and\s+address\s+of\s+original\s+trustor[^\n]*\n'
-                r'([A-Z][^\n]{3,120})',
-                re.I | re.MULTILINE),
+            # A/B/C/D: "Name and address of original trustor:\n(as shown...)\nNAME"
+            re.compile(r'Name\s+and\s+address\s+of\s+(?:the\s+)?original\s+trustor[^\n]*\n'
+                       r'(?:\([^\n]+\)\n)?([A-Z][^\n]{3,120})', re.I | re.M),
+            # E: "NAME AND ADDRESS OF ORIGINAL TRUSTOR:\nJASON NUTT..."
+            re.compile(r'NAME\s+AND\s+ADDRESS\s+OF\s+ORIGINAL\s+TRUSTOR[:\s]*\n'
+                       r'([A-Z][^\n]{3,120})', re.M),
+            # F: "Original Trustor: Frances L Gill, an unmarried woman"
+            re.compile(r'Original\s+Trustor[:\s]+([A-Za-z][^\n,\d]{3,80})', re.I),
         ],
-        # "Name and address of beneficiary:\n(as of recording of Notice of Sale)\nFreedom Mortgage..."
+        # ── BENEFICIARY ───────────────────────────────────────────────────────
         "beneficiary": [
-            re.compile(
-                r'Name\s+and\s+address\s+of\s+beneficiar[^\n]*\n'
-                r'\([^\n]+\)\n'                 # skip "(as of recording...)"
-                r'([^\n]{3,120})',
-                re.I | re.MULTILINE),
-            re.compile(
-                r'Name\s+and\s+address\s+of\s+beneficiar[^\n]*\n'
-                r'([^\n]{3,120})',
-                re.I | re.MULTILINE),
+            # A/B/C/D: standard with optional parenthetical
+            re.compile(r'Name\s+and\s+address\s+of\s+(?:the\s+)?beneficiar[^\n]*\n'
+                       r'(?:\([^\n]+\)\n)?([^\n]{3,120})', re.I | re.M),
+            # E: ALL CAPS label
+            re.compile(r'NAME\s+AND\s+ADDRESS\s+OF\s+BENEFICIAR[^\n]*\n'
+                       r'([A-Z][^\n]{3,100})', re.M),
+            # F: "Current Beneficiary:\nUnited Wholesale"
+            re.compile(r'Current\s+Beneficiar[^\n]*\n([^\n]{3,100})', re.I),
         ],
-        # "Original Principal Balance: $418,396.00"
+        # ── AMOUNT ────────────────────────────────────────────────────────────
         "amount": [
-            re.compile(
-                r'Original\s+Principal\s+Balance[:\s]+\$?([\d,]+(?:\.\d{1,2})?)',
-                re.I),
-            re.compile(
-                r'(?:Unpaid\s+(?:Principal\s+)?Balance|Total\s+(?:Unpaid\s+)?'
-                r'(?:Debt|Indebtedness))[:\s]+\$?([\d,]+(?:\.\d{1,2})?)',
-                re.I),
+            re.compile(r'(?:Original\s+Principal\s+Balance|'
+                       r'ORIGINAL\s+PRINCIPAL\s+BALANCE)[:\s]+\$?\s*([\d,]+(?:\.\d{1,2})?)', re.I),
+            re.compile(r'(?:Unpaid\s+(?:Principal\s+)?Balance|'
+                       r'Total\s+(?:Unpaid\s+)?(?:Debt|Indebtedness))[:\s]+\$?\s*([\d,]+(?:\.\d{1,2})?)', re.I),
         ],
-        # "on 7/8/2026 at 12:00 PM"
+        # ── SALE DATE ─────────────────────────────────────────────────────────
         "sale_date": [
-            re.compile(r'\bon\s+(\d{1,2}/\d{1,2}/\d{4})\s+at\s+\d{1,2}:\d{2}', re.I),
-            re.compile(r'\bon\s+(\w+\s+\d{1,2},?\s*\d{4})\s+at\s+\d{1,2}:\d{2}', re.I),
+            # Numeric: "on 7/8/2026 at" or "on 07/01/2026 at"
+            re.compile(r'\bon\s+(\d{1,2}/\d{1,2}/\d{4})\s+at\s+\d', re.I),
+            # Month name: "on July 15, 2026 at" or "auction on July 23, 2026 at"
+            re.compile(r'\bon\s+((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
+                       r'[a-z]*\.?\s+\d{1,2},?\s*\d{4})\s+at\s+\d', re.I),
+            re.compile(r'auction\s+on\s+((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
+                       r'[a-z]*\s+\d{1,2},?\s*\d{4})\s+at\s+\d', re.I),
         ],
-        # "Superior Court Building, 201 W. Jefferson, Phoenix, AZ 85003"
-        "sale_location": [
-            re.compile(
-                r'((?:Superior\s+Court|Maricopa\s+County)[^\n,]{0,60}'
-                r'(?:Building|Courthouse|Jefferson)[^\n]{0,80})',
-                re.I),
-            re.compile(
-                r'(?:courtyard|main\s+entrance|highest\s+bidder)[^\n]{0,60}\n?'
-                r'([^\n]{10,120}(?:Jefferson|Court|Building)[^\n]{0,60})',
-                re.I),
+        # ── PROPERTY ADDRESS ──────────────────────────────────────────────────
+        "property_address": [
+            # B/C/D: "Street address or identifiable location:    113 W LIBBY ST"
+            re.compile(r'Street\s+address\s+or\s+identifiable\s+location[:\s]+(\d+[^\n]{5,120})', re.I),
+            # E: "PROPERTY ADDRESS: 535 EAST IRONWOOD DRIVE..."
+            re.compile(r'PROPERTY\s+ADDRESS[:\s]+(\d+[^\n]{5,120})', re.I),
+            # F/MTC: "purported to be:\n240 S Old Litchfield" or "purported to be: 10562 W CAMPANA"
+            re.compile(r'purported\s+to\s+be[:\s]*\n(\d+[^\n]{5,120})', re.I),
+            re.compile(r'purported\s+to\s+be[:\s]+(\d+[^\n]{5,120})', re.I),
+            # Exhibit A / attachment: "Property Address: 113 Libby St"
+            re.compile(r'Property\s+Address[:\s]+(\d+[^\n]{5,120})', re.I),
         ],
-        # APN — present in some NOTS PDFs
+        # ── APN ───────────────────────────────────────────────────────────────
         "apn": [
-            re.compile(r'Tax\s+Parcel\s+#?\s*[:\s]+([0-9\-]{5,15})', re.I),
-            re.compile(
-                r'(?:APN|Parcel\s+(?:No\.?|Number))[:\s#]+(\d{3}[\-\s]?\d{2}[\-\s]?\d{3,4})',
-                re.I),
+            # "A.P.N.: 208-02-275" or "A.P.N.: 175-11-160"
+            re.compile(r'^A\.?P\.?N\.?[:\s.#]+([0-9][\d\-\s]{4,14})', re.I | re.M),
+            # "TAX PARCEL No.: 302-40-077 9" or "Tax Parcel #"
+            re.compile(r'Tax\s+Parcel\s+(?:No\.?|#)[:\s]+([0-9][\d\-\s]{4,14})', re.I),
+            # "Parcel Id: 208-02-275"
+            re.compile(r'Parcel\s+(?:Id|No\.?|Number)[:\s]+([0-9][\d\-\s]{4,14})', re.I),
         ],
-        # Trustee
+        # ── SALE LOCATION ─────────────────────────────────────────────────────
+        "sale_location": [
+            re.compile(r'((?:Superior\s+Court(?:\s+Building)?|Maricopa\s+County\s+Courthouse'
+                       r'|law\s+firm\s+of\s+Folks\s+Hess'
+                       r'|201\s+W(?:est)?\s+Jefferson)[^\n,]{0,80})', re.I),
+        ],
+        # ── TRUSTEE ───────────────────────────────────────────────────────────
         "trustee": [
-            re.compile(
-                r'NAME,\s*ADDRESS[^:\n]+TRUSTEE[^\n]*\n'
-                r'(?:\([^\n]+\)\n)?'
-                r'([^\n]{3,80})',
-                re.I),
+            # A/B/C/D: "NAME, ADDRESS & TELEPHONE NUMBER OF TRUSTEE:\n(as of...)\nNAME"
+            re.compile(r'NAME,\s*ADDRESS[^:\n]+TRUSTEE[^\n]*\n(?:\([^\n]+\)\n)?([^\n]{3,80})', re.I),
+            # E: "NAME AND ADDRESS OF TRUSTEE:\nAmerica West"
+            re.compile(r'NAME\s+AND\s+ADDRESS\s+OF\s+TRUSTEE[:\s]*\n([^\n]{3,80})', re.I | re.M),
+            # F: "Current Trustee:\nLeonard J. McDonald"
+            re.compile(r'Current\s+Trustee[:\s]*\n([^\n]{3,80})', re.I),
+            # Tiffany & Bosco format: undersigned trustee named in body
+            re.compile(r'The\s+undersigned\s+Trustee,\s+([^,\n]{3,60}),', re.I),
         ],
     }
 
@@ -430,48 +445,64 @@ class PDFParser:
 
     @staticmethod
     def _post_process(out: dict, full_text: str):
-        # Clean trustor — name may span multiple lines; strip everything after the address
-        if out["trustor"]:
-            # Remove everything from ", HUSBAND AND WIFE" or similar legal boilerplate onward
+        # ── Clean trustor ─────────────────────────────────────────────────────
+        if out.get("trustor"):
             out["trustor"] = re.sub(
                 r',?\s+(?:HUSBAND\s+AND\s+WIFE|A\s+MARRIED|A\s+SINGLE|AS\s+TRUSTEE'
-                r'|COMMUNITY\s+PROPERTY|NOT\s+AS|AND\s+NOT).*',
-                "", out["trustor"], flags=re.I).strip()
+                r'|COMMUNITY\s+PROPERTY|NOT\s+AS|AND\s+NOT|an\s+(?:unmarried|married)'
+                r'|husband\s+and\s+wife).*',
+                "", out["trustor"], flags=re.I).strip().rstrip(".,")
 
-        # Extract property address from the trustor block
-        # Structure after name lines: STREET\nCITY, AZ ZIP
-        if not out.get("property_address") and out.get("trustor"):
+        # ── Property address: Format B (direct label in text) ─────────────────
+        # "purported to be: 10562 W CAMPANA DR, SUN CITY, AZ 85351-1164"
+        if out.get("property_address"):
+            addr = out["property_address"].strip().rstrip(".")
+            m = re.match(
+                r'^(.+?),\s*([A-Za-z\s]+),\s*(AZ|Arizona)\s+(\d{5}(?:-\d{4})?)',
+                addr, re.I)
+            if m:
+                out["property_address"] = _clean(m.group(1))
+                out["prop_city"]        = _clean(m.group(2))
+                out["prop_state"]       = "AZ"
+                out["prop_zip"]         = m.group(4)[:5]
+            else:
+                out["property_address"] = _clean(addr)
+
+        # ── Property address: Format A fallback (from trustor block) ──────────
+        # After trustor name, the address lines follow: STREET\nCITY, AZ ZIP
+        if not out.get("property_address"):
             m = re.search(
-                r'Name\s+and\s+address\s+of\s+original\s+trustor[^\n]*\n'
-                r'(?:\([^\n]+\)\n)?'           # skip parenthetical
-                r'(?:[A-Z][^\n]+\n){1,5}?'     # skip 1-5 name lines
-                r'(\d+\s+[^\n]{5,60})\n'       # street: starts with number
+                r'Name\s+and\s+[Aa]ddress\s+of\s+(?:the\s+)?[Oo]riginal\s+[Tt]rustor[^\n]*\n'
+                r'(?:\([^\n]+\)\n)?'        # skip optional parenthetical
+                r'(?:[A-Z][^\n]+\n){1,5}?'  # skip 1-5 name/boilerplate lines
+                r'(\d+\s+[^\n]{5,60})\n'    # street line starts with number
                 r'([A-Z][A-Za-z\s]+),\s*(AZ|Arizona)\s+(\d{5})',
-                full_text, re.I | re.MULTILINE)
+                full_text, re.MULTILINE)
             if m:
                 out["property_address"] = _clean(m.group(1))
                 out["prop_city"]        = _clean(m.group(2))
                 out["prop_state"]       = "AZ"
                 out["prop_zip"]         = m.group(4)
 
-        # Clean trustee — remove junk that OCR picks up after the name
+        # ── APN normalise ─────────────────────────────────────────────────────
+        if out.get("apn"):
+            d = re.sub(r'\D', '', out["apn"])
+            if len(d) >= 8:
+                out["apn"] = f"{d[:3]}-{d[3:5]}-{d[5:]}"
+
+        # ── Sale location: trim everything after the address ──────────────────
+        if out.get("sale_location"):
+            loc = re.sub(r',?\s+on\s+\d.*', "", out["sale_location"], flags=re.I).strip()
+            out["sale_location"] = loc[:120]
+
+        # ── Clean trustee ─────────────────────────────────────────────────────
         if out.get("trustee"):
             out["trustee"] = re.sub(
                 r'\s*(?:Unofficial\s+Document|Sale\s+(?:Lines|Information)|'
                 r'as\s+of\s+recording|SALE\s+INFORMATION).*',
                 "", out["trustee"], flags=re.I).strip().rstrip(",")
 
-        # Truncate sale_location to just the building address (before ", on")
-        if out.get("sale_location"):
-            loc = re.sub(r',?\s+on\s+\d{1,2}/\d{1,2}/\d{4}.*', "",
-                         out["sale_location"], flags=re.I).strip()
-            out["sale_location"] = loc[:120]
-        if out.get("apn"):
-            d = re.sub(r'\D', '', out["apn"])
-            if len(d) >= 8:
-                out["apn"] = f"{d[:3]}-{d[3:5]}-{d[5:]}"
-
-        # Normalise sale date
+        # ── Normalise sale date ───────────────────────────────────────────────
         if out.get("sale_date"):
             out["sale_date"] = _norm_date(out["sale_date"])
 
@@ -882,6 +913,10 @@ async def main():
         help="Full scrape + save raw HTML/PDFs to data/debug/")
     parser.add_argument("--diagnose", action="store_true",
         help="Probe page structure of results page")
+    parser.add_argument("--date", metavar="YYYY-MM-DD",
+        help="Scrape a specific single date, e.g. --date 2026-04-08")
+    parser.add_argument("--days", metavar="N", type=int,
+        help="Scrape last N days (default: 1 = yesterday only)")
     args = parser.parse_args()
 
     if args.diagnose:
@@ -898,19 +933,29 @@ async def main():
             pass
 
     if not pdf_lib:
-        log.error("="*60)
-        log.error("PDF PARSING NOT AVAILABLE")
-        log.error("Install pdfplumber:  pip install pdfplumber")
-        log.error("This is required to extract owner/address from NOTS PDFs")
-        log.error("="*60)
+        log.error("PDF PARSING NOT AVAILABLE — install: pip install pdfplumber")
     else:
         log.info(f"PDF library: {pdf_lib} ✓")
 
-    end_dt    = datetime.now()
-    start_dt  = end_dt - timedelta(days=LOOKBACK_DAYS)
-    # New site needs YYYY-MM-DD dates
-    start_ymd = start_dt.strftime("%Y-%m-%d")
-    end_ymd   = end_dt.strftime("%Y-%m-%d")
+    # ── Date range ────────────────────────────────────────────────────────────
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+
+    if args.date:
+        try:
+            target = datetime.strptime(args.date, "%Y-%m-%d")
+        except ValueError:
+            log.error(f"Invalid date '{args.date}' — use YYYY-MM-DD"); return
+        start_ymd = target.strftime("%Y-%m-%d")
+        end_ymd   = target.strftime("%Y-%m-%d")
+    elif args.days:
+        start_ymd = (today - timedelta(days=args.days)).strftime("%Y-%m-%d")
+        end_ymd   = today.strftime("%Y-%m-%d")
+    else:
+        # Default: yesterday only — use LOOKBACK_DAYS env var to override
+        # (set LOOKBACK_DAYS=7 in GitHub Actions for the first backfill run)
+        lookback  = int(os.getenv("LOOKBACK_DAYS", "1"))
+        start_ymd = (today - timedelta(days=lookback)).strftime("%Y-%m-%d")
+        end_ymd   = today.strftime("%Y-%m-%d")
 
     log.info("=" * 60)
     log.info("Maricopa Motivated Seller Scraper v10.0")
