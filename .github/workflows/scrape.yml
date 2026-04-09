@@ -2,8 +2,13 @@ name: Maricopa Motivated Seller Scraper
 
 on:
   schedule:
-    - cron: '0 15 * * *'   # 8 AM Arizona time daily
-  workflow_dispatch:         # manual trigger from GitHub UI
+    - cron: '0 1 * * *'   # 6 PM Arizona time (MST=UTC-7, so 01:00 UTC next day)
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: 'Days to look back (1=today only, 7=backfill week)'
+        required: false
+        default: '1'
 
 permissions:
   contents: write
@@ -46,7 +51,8 @@ jobs:
       - name: Run scraper
         run: python fetch.py
         env:
-          LOOKBACK_DAYS: 7
+          # Scheduled run = 1 day. Manual run uses the input (default 1, set 7 for backfill)
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days || '1' }}
 
       - name: Commit data files back to repo
         run: |
