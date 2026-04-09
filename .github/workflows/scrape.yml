@@ -2,13 +2,12 @@ name: Maricopa Motivated Seller Scraper
 
 on:
   schedule:
-    # Runs daily at 8:00 AM Arizona time (MST = UTC-7, so 15:00 UTC)
-    - cron: '0 15 * * *'
-  workflow_dispatch:   # also allows manual trigger from GitHub UI
+    - cron: '0 15 * * *'   # 8 AM Arizona time daily
+  workflow_dispatch:         # manual trigger from GitHub UI
 
 permissions:
-  contents: write      # needed to commit data files back to repo
-  pages: write         # needed to deploy dashboard to GitHub Pages
+  contents: write
+  pages: write
   id-token: write
 
 jobs:
@@ -37,9 +36,7 @@ jobs:
             libgl1
 
       - name: Install Python dependencies
-        run: |
-          pip install --upgrade pip
-          pip install -r requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Install Playwright browsers
         run: |
@@ -47,30 +44,49 @@ jobs:
           playwright install-deps chromium
 
       - name: Run scraper
-        run: |
-          python fetch.py
+        run: python fetch.py
         env:
           LOOKBACK_DAYS: 7
 
-      - name: Commit data files
+      - name: Commit data files back to repo
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ dashboard/
           git diff --staged --quiet || git commit -m "Scraper run: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
-        continue-on-error: true   # don't fail the job if nothing changed
+        continue-on-error: true
 
-      - name: Upload Excel as artifact
+      - name: Upload Excel as downloadable artifact
         uses: actions/upload-artifact@v4
         with:
           name: leads-${{ github.run_id }}
           path: data/leads.xlsx
           retention-days: 30
 
-      - name: Deploy dashboard to GitHub Pages
-        uses: actions/deploy-pages@v4
-        if: github.ref == 'refs/heads/main'
+  deploy-pages:
+    needs: scrape
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repo (with latest data)
+        uses: actions/checkout@v4
         with:
-          artifact_name: dashboard
-        continue-on-error: true
+          ref: main
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard folder as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
