@@ -1,308 +1,94 @@
 First Name,Last Name,Mailing Address,Mailing City,Mailing State,Mailing Zip,Property Address,Property City,Property State,Property Zip,Lead Type,Document Type,Date Filed,Recording Number,Loan Balance,Sale Date,APN,Seller Score,Motivated Seller Flags,Source,PDF URL
-Doris,M Hargrove,,,AZ,,15559 W CORTEZ ST,SURPRISE,AZ,85379,Notice of Trustee Sale,NS,2026-06-10,20260349011,"275,793.00",2026-09-24,501-46-680,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349011.pdf
-Bunny,Lee Cordova,,,AZ,,8545 West Las Palmaritas Drive,Peoria,AZ,85345,Notice of Trustee Sale,NS,2026-06-10,20260349307,"239,920.00",,142-33-165,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349307.pdf
-Corianne,M Richter And Scott G Richter,,,AZ,,243 FISHER ST,WICKENBURG,AZ,85390,Notice of Trustee Sale,NS,2026-06-10,20260349970,"358,994.00",2026-09-10,,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349970.pdf
-Albert,Kenneth Mccormack,,,AZ,,6265 E DODGE ST,MESA,AZ,85205,Notice of Trustee Sale,NS,2026-06-10,20260350032,"322,500.00",2026-09-10,,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350032.pdf
-Charles,T Hemphill Jr And Diane L Hemphill,,,AZ,,3103 N150th AVENUE,GOODYEAR,AZ,85395,Notice of Trustee Sale,NS,2026-06-10,20260350241,"359,900.00",2026-09-17,,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350241.pdf
-Patrick,Dennis Graham And Virginia A Graham,,,AZ,,1462 E Torrey Pines Ln,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260350359,"366,718.00",2026-09-09,303-79-7651,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350359.pdf
-Marquitta,M Barnes,,,AZ,,1734 W Minton St,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260350379,"408,465.00",2026-10-15,105-97-5797,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350379.pdf
-Jason,D Podsiadlik,,,AZ,,2236 W WETHERSFIELD RD,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260350413,"311,258.00",2026-09-15,149-04-1199,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350413.pdf
-James,R. Schorie And Amber J. Schorie,,,AZ,,2322 E SAN TAN ST,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260350422,"347,317.00",2026-09-17,310-11-3679,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350422.pdf
-Lynn,M Southward And Edwin M Southward,,,AZ,,13196 W Via Dona Rd,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260351122,"355,466.00",2026-10-15,510-09-5763,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351122.pdf
-Mario,Nevarez Jr And Sylvia Jannette Nevarez,,,AZ,,16385 WEST YUMA ROAD,GOODYEAR,AZ,85338,Notice of Trustee Sale,NS,2026-06-10,20260351594,"1,358,050.00",2026-09-15,,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351594.pdf
-"Wife And Husband, As",Kristie A Dwire And Stephen M Dwire,,,AZ,,20559 W NELSON PL,BUCKEYE,AZ,85396,Notice of Trustee Sale,NS,2026-06-10,20260351616,"356,250.00",2026-09-24,502-83-6077,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351616.pdf
-,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260348927,"146,250.00",,145-27-619,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348927.pdf
-Husband,And Wife As,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260349945,"393,750.00",,503-69-2148078,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349945.pdf
-,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260350423,"123,000.00",,152-05-1214,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350423.pdf
-,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260351167,"140,000.00",,105-58-0298,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351167.pdf
-,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260351466,"388,827.00",,500-90-513,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351466.pdf
-,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260351685,"186,240.00",,141-88-264,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351685.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349935,"128,723.00",,301-18-024,61,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349935.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349963,"124,530.00",,142-45-949,61,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349963.pdf
-,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260351469,"36,700.00",,133-38-299,53,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351469.pdf
-"18548 North 85Th Avenue, Peoria, Az 85382",Community Property With Right Of Survivorship,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-10,20260351679,,,233-04-263,53,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351679.pdf
-,,,,AZ,,,,AZ,,Lis Pendens,LP,2026-06-10,20260350609,,,,48,Lis pendens; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350609.pdf
-,,,,AZ,,,,AZ,,Lis Pendens,LP,2026-06-10,20260350610,,,,48,Lis pendens; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350610.pdf
-,,,,AZ,,,,AZ,,Lis Pendens,LP,2026-06-10,20260350611,,,501-16-25256,48,Lis pendens; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350611.pdf
-,,,,AZ,,,,AZ,,Lis Pendens,LP,2026-06-10,20260350662,,,104-51-010,48,Lis pendens; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350662.pdf
-,,,,AZ,,,,AZ,,Lis Pendens,LP,2026-06-10,20260350906,,,,48,Lis pendens; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350906.pdf
-,,,,AZ,,,,AZ,,Lis Pendens,LP,2026-06-10,20260351400,,,401-56-017,48,Lis pendens; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351400.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260348870,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348870.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349258,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349258.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349259,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349259.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349260,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349260.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349261,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349261.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349262,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349262.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349337,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349337.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349549,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349549.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349586,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349586.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349806,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349806.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349808,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349808.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349836,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349836.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349901,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349901.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349902,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349902.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349953,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349953.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260349991,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349991.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350110,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350110.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350111,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350111.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350112,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350112.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350114,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350114.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350115,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350115.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350116,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350116.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350117,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350117.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350118,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350118.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350119,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350119.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350120,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350120.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350121,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350121.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350122,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350122.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350123,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350123.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350124,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350124.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350125,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350125.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350126,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350126.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350127,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350127.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350279,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350279.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350280,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350280.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350281,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350281.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350353,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350353.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350361,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350361.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350479,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350479.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350496,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350496.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350504,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350504.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350512,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350512.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350529,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350529.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350538,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350538.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350555,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350555.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350581,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350581.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350584,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350584.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350599,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350599.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350600,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350600.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350605,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350605.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350613,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350613.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350622,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350622.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350638,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350638.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350639,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350639.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350644,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350644.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350645,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350645.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350646,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350646.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350648,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350648.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350649,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350649.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350650,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350650.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350651,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350651.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350652,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350652.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350653,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350653.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350654,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350654.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350655,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350655.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350656,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350656.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350657,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350657.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350658,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350658.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350659,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350659.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350660,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350660.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350661,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350661.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350666,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350666.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350693,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350693.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350700,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350700.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350704,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350704.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350706,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350706.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350713,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350713.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350727,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350727.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350744,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350744.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350786,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350786.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350828,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350828.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350864,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350864.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350883,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350883.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260350921,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350921.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351106,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351106.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351181,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351181.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351183,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351183.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351184,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351184.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351185,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351185.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351186,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351186.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351187,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351187.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351188,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351188.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351189,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351189.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351190,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351190.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351191,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351191.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351193,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351193.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351194,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351194.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351195,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351195.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351196,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351196.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351197,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351197.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351198,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351198.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351217,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351217.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351218,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351218.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351219,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351219.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351220,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351220.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351221,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351221.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351222,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351222.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351223,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351223.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351224,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351224.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351225,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351225.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351226,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351226.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351227,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351227.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351228,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351228.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351229,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351229.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351231,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351231.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351232,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351232.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351233,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351233.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351234,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351234.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351235,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351235.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351236,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351236.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351237,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351237.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351238,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351238.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351239,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351239.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351240,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351240.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351241,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351241.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351242,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351242.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351243,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351243.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351244,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351244.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351245,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351245.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351246,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351246.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351247,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351247.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351248,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351248.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351249,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351249.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351251,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351251.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351276,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351276.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351283,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351283.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351285,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351285.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351291,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351291.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351297,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351297.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351309,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351309.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351316,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351316.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351317,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351317.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351319,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351319.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351346,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351346.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351352,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351352.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351359,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351359.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351372,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351372.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351380,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351380.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351383,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351383.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351399,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351399.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351407,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351407.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351416,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351416.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351430,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351430.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351441,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351441.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351448,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351448.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351456,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351456.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351458,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351458.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351465,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351465.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351596,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351596.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351597,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351597.pdf
-,,,,AZ,,,,AZ,,Judgment,JG,2026-06-10,20260351638,,,,48,Judgment lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351638.pdf
-,,,,AZ,,,,AZ,,Tax Deed,DE,2026-06-10,20260349496,,,,48,Tax deed; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349496.pdf
-,,,,AZ,,,,AZ,,Tax Deed,DE,2026-06-10,20260350298,,,,48,Tax deed; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350298.pdf
-,,,,AZ,,,,AZ,,Tax Deed,DE,2026-06-10,20260350299,,,,48,Tax deed; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350299.pdf
-,,,,AZ,,,,AZ,,Probate Document,PD,2026-06-10,20260349173,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349173.pdf
-,,,,AZ,,,,AZ,,Probate Document,PD,2026-06-10,20260349582,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349582.pdf
-,,,,AZ,,,,AZ,,Probate Document,PD,2026-06-10,20260349682,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349682.pdf
-,,,,AZ,,,,AZ,,Probate Document,PD,2026-06-10,20260349876,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349876.pdf
-,,,,AZ,,,,AZ,,Probate Document,PD,2026-06-10,20260350246,,,214-49-184,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350246.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260350002,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350002.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260350195,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350195.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260350243,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350243.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260350485,,,502-09-349202,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350485.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260350526,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350526.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260350624,,,200-38-587,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350624.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349244,,,218-56-561,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349244.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349248,,,218-56-561,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349248.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349727,,,304-16-692,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349727.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349767,,,,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349767.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349868,"43,215.00",,205-12-050,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349868.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260349911,"38,890.78",,149-24-001,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349911.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260350715,,,200-28-856,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350715.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260350908,,,104-74-004,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350908.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260350909,,,213-24-118,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350909.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260350910,,,104-86-3447,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350910.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260350942,,,,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350942.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260350953,,,,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350953.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260351117,,,303-90-101,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351117.pdf
-,,,,AZ,,,,AZ,,Mechanic Lien,ML,2026-06-10,20260351681,,,149-17-151,46,Mechanic lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351681.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348838,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348838.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348839,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348839.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348841,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348841.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348842,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348842.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348843,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348843.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348844,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348844.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348846,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348846.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348847,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348847.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348848,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348848.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348849,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348849.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348850,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348850.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348851,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348851.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348852,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348852.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348853,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348853.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348854,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348854.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348855,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348855.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348856,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348856.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348857,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348857.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348858,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348858.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348860,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348860.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348861,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348861.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348862,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348862.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348863,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348863.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260348864,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260348864.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349015,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349015.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349016,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349016.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349017,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349017.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349018,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349018.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349019,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349019.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349020,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349020.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349021,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349021.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349023,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349023.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349025,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349025.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349278,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349278.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349704,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349704.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350230,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350230.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350773,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350773.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350774,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350774.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350775,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350775.pdf
-,,,,AZ,,,,AZ,,Tax Deed,DE,2026-06-10,20260350339,,,,45,Tax deed; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350339.pdf
-,,,,AZ,,,,AZ,,Tax Deed,DE,2026-06-10,20260351697,,,,45,Tax deed; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351697.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260351064,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351064.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260351453,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351453.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260351611,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351611.pdf
-,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-10,20260351651,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351651.pdf
-,,,,AZ,,,,AZ,,State Tax Lien,SL,,20260349677,,,,43,Gov/Tax lien,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349677.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349022,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349022.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349024,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349024.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349052,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349052.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349194,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349194.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349681,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349681.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349702,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349702.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349705,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349705.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349706,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349706.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349707,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349707.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260349708,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260349708.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350228,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350228.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350229,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350229.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350231,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350231.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350232,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350232.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350233,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350233.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350236,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350236.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350776,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350776.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350777,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350777.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350840,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350840.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350841,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350841.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350842,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350842.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350843,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350843.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350844,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350844.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350845,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350845.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350846,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350846.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350847,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350847.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350848,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350848.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350849,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350849.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350850,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350850.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350851,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350851.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350852,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350852.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350853,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350853.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350854,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350854.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350855,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350855.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350856,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350856.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350857,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350857.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260350963,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260350963.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351029,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351029.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351030,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351030.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351150,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351150.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351156,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351156.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351157,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351157.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351159,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351159.pdf
-,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-10,20260351717,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351717.pdf
+Robert,B Macdonald,,,AZ,,7750 E BROADWAY RD 48,MESA,AZ,85208,Notice of Trustee Sale,NS,2026-06-11,20260352178,"123,626.00",2026-09-15,218-35-12472,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352178.pdf
+Kaila,Rae Wilson,,,AZ,,2544 W CAMPBELL AVE UNIT 45,PHOENIX,AZ,85017,Notice of Trustee Sale,NS,2026-06-11,20260352210,"166,920.00",2026-09-15,154-12-1501,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352210.pdf
+,,,,AZ,,"4828 W ORANGEWOOD AVE., GLENDALE AZ 85301 and",,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353515,"201,600.00",2026-09-23,147-03-577,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353515.pdf
+An Arizona Limited Liability Company,Vita Nova Sw Holdings Llc,,,AZ,,13207 W KODIAK DR,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353583,"150,000.00",2026-09-16,232-06-296,73,Pre-foreclosure; Trustee Sale; New this week; LLC / corp owner,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353583.pdf
+Manuel,Buchanan And Esmeralda Buchanan,,,AZ,,2028 E San Pe'ro Street,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353785,"211,105.00",2026-09-11,776-52-0177,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353785.pdf
+Bruce,Nunez Reyes And Gabriela Maldonado Gonzalez,,,AZ,,5611 W Roma Avenue,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353804,"373,117.00",2026-10-15,144-45-1988,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353804.pdf
+Frank,Jojola And Penny Jojola,,,AZ,,4960 S Springs Drive,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353805,"640,000.00",2026-10-15,303-45-4484,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353805.pdf
+,,,,AZ,,2042 N. Sossaman Road,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353854,"795,000.00",,219-25-087,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353854.pdf
+Lin,Feng Huang,,,AZ,,1459 E CINDY ST,CHANDLER,AZ,85225,Notice of Trustee Sale,NS,2026-06-11,20260354131,"175,200.00",2026-09-24,,73,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354131.pdf
+,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353213,"175,000.00",,300-40-1851,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353213.pdf
+,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260354223,"179,000.00",,302-82-612,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354223.pdf
+,,,,AZ,,,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260354243,"441,697.00",,500-67-460,68,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354243.pdf
+Joseph,Deleon,,,AZ,,1438 E Hatcher Rd,,AZ,,Notice of Trustee Sale,NS,2026-06-11,20260353809,"18,500.00",2026-10-15,159-32-035,58,Pre-foreclosure; Trustee Sale; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353809.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260352850,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352850.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260352959,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352959.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260353068,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353068.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260353160,,,,48,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353160.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351787,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351787.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351788,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351788.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351789,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351789.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351790,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351790.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351791,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351791.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351792,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351792.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351793,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351793.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351794,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351794.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351795,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351795.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351796,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351796.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351797,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351797.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351798,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351798.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351869,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351869.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351873,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351873.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260351910,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260351910.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352237,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352237.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352267,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352267.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352375,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352375.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352376,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352376.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352435,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352435.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352477,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352477.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352480,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352480.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352481,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352481.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352482,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352482.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352483,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352483.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260352497,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260352497.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353249,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353249.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353251,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353251.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353255,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353255.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353257,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353257.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353258,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353258.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353260,,,,45,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353260.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260353442,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353442.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260353841,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353841.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260354087,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354087.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260354093,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354093.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260354119,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354119.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260354218,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354218.pdf
+,,,,AZ,,,,AZ,,Probate Document,PJ,2026-06-11,20260354281,,,,45,Probate / estate; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354281.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353145,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353145.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353146,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353146.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353147,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353147.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353148,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353148.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353150,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353150.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353151,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353151.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353153,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353153.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353205,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353205.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353206,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353206.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353225,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353225.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353235,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353235.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353302,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353302.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353312,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353312.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353348,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353348.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353349,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353349.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353456,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353456.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353457,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353457.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353458,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353458.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353708,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353708.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353710,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353710.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353711,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353711.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353712,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353712.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353858,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353858.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353859,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353859.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260353860,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353860.pdf
+,,,,AZ,,,,AZ,,Lien,LN,2026-06-11,20260354117,,,,44,Lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354117.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353405,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353405.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353409,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353409.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353677,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353677.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353679,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353679.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260353811,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260353811.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260354197,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354197.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260354211,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354211.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260354213,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354213.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260354214,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354214.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260354283,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354283.pdf
+,,,,AZ,,,,AZ,,Medical Lien,HL,2026-06-11,20260354286,,,,42,Medical lien; New this week,Maricopa County Recorder,https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260354286.pdf
