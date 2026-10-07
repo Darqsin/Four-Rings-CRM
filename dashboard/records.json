@@ -1,11 +1,139 @@
 {
-  "fetched_at": "2026-10-06T07:17:22.004765Z",
+  "fetched_at": "2026-10-07T06:57:30.053115Z",
   "source": "Maricopa County Recorder",
   "date_range": {
-    "start": "2026-10-05",
-    "end": "2026-10-06"
+    "start": "2026-10-06",
+    "end": "2026-10-07"
   },
-  "total": 0,
+  "total": 5,
   "with_address": 0,
-  "records": []
+  "records": [
+    {
+      "doc_num": "20260580703",
+      "doc_type": "DE",
+      "filed": "2026-10-06",
+      "pdf_url": "https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260580703.pdf",
+      "clerk_url": "https://recorder.maricopa.gov/recording/document-details.html?rec=20260580703",
+      "_code": "DE",
+      "cat": "TAX",
+      "cat_label": "Tax Deed",
+      "sale_location": "Superior Court of the State of",
+      "apn": "",
+      "_pdf_ok": true,
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "AZ",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "AZ",
+      "mail_zip": "",
+      "flags": [
+        "Tax deed",
+        "New this week"
+      ],
+      "score": 48
+    },
+    {
+      "doc_num": "20260581668",
+      "doc_type": "DE",
+      "filed": "2026-10-06",
+      "pdf_url": "https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260581668.pdf",
+      "clerk_url": "https://recorder.maricopa.gov/recording/document-details.html?rec=20260581668",
+      "_code": "DE",
+      "cat": "TAX",
+      "cat_label": "Tax Deed",
+      "apn": "",
+      "_pdf_ok": true,
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "AZ",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "AZ",
+      "mail_zip": "",
+      "flags": [
+        "Tax deed",
+        "New this week"
+      ],
+      "score": 48
+    },
+    {
+      "doc_num": "20260581686",
+      "doc_type": "DE",
+      "filed": "2026-10-06",
+      "pdf_url": "https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260581686.pdf",
+      "clerk_url": "https://recorder.maricopa.gov/recording/document-details.html?rec=20260581686",
+      "_code": "DE",
+      "cat": "TAX",
+      "cat_label": "Tax Deed",
+      "grantee": "VICKI L. LESCOE",
+      "apn": "",
+      "_pdf_ok": true,
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "AZ",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "AZ",
+      "mail_zip": "",
+      "flags": [
+        "Tax deed",
+        "New this week"
+      ],
+      "score": 48
+    },
+    {
+      "doc_num": "20260581770",
+      "doc_type": "DE",
+      "filed": "2026-10-06",
+      "pdf_url": "https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260581770.pdf",
+      "clerk_url": "https://recorder.maricopa.gov/recording/document-details.html?rec=20260581770",
+      "_code": "DE",
+      "cat": "TAX",
+      "cat_label": "Tax Deed",
+      "apn": "503-50-558",
+      "_pdf_ok": true,
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "AZ",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "AZ",
+      "mail_zip": "",
+      "flags": [
+        "Tax deed",
+        "New this week"
+      ],
+      "score": 48
+    },
+    {
+      "doc_num": "20260581804",
+      "doc_type": "DE",
+      "filed": "2026-10-06",
+      "pdf_url": "https://legacy.recorder.maricopa.gov/UnOfficialDocs/pdf/20260581804.pdf",
+      "clerk_url": "https://recorder.maricopa.gov/recording/document-details.html?rec=20260581804",
+      "_code": "DE",
+      "cat": "TAX",
+      "cat_label": "Tax Deed",
+      "apn": "",
+      "_pdf_ok": true,
+      "prop_address": "",
+      "prop_city": "",
+      "prop_state": "AZ",
+      "prop_zip": "",
+      "mail_address": "",
+      "mail_city": "",
+      "mail_state": "AZ",
+      "mail_zip": "",
+      "flags": [
+        "Tax deed",
+        "New this week"
+      ],
+      "score": 48
+    }
+  ]
 }
